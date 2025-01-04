@@ -1,21 +1,66 @@
-MIT License
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook Marketing Digital, Finanças e Investimentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>eBook Transformação Digital</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#compra">Comprar</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Copyright (c) 2025 manga145
+    <section id="home" class="hero">
+        <h2>Transforme sua vida com marketing digital, finanças pessoais, tecnologia e investimentos!</h2>
+        <p>Aprenda as estratégias mais eficazes para conquistar liberdade financeira e sucesso no digital.</p>
+        <img src="ebook-cover.jpg" alt="Capa do eBook">
+        <a href="#compra" class="cta-button">Adquira Agora</a>
+    </section>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    <section id="sobre">
+        <h2>Sobre o eBook</h2>
+        <p>Este eBook aborda os temas de marketing digital, finanças pessoais, tecnologia e investimentos para ajudar você a atingir seus objetivos financeiros e profissionais.</p>
+    </section>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    <section id="beneficios">
+        <h2>O que você vai aprender?</h2>
+        <ul>
+            <li>Estratégias de marketing digital eficazes</li>
+            <li>Como organizar suas finanças pessoais</li>
+            <li>Tendências e ferramentas de tecnologia para negócios</li>
+            <li>Como começar a investir com segurança</li>
+        </ul>
+    </section>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    <section id="depoimentos">
+        <h2>O que as pessoas estão dizendo</h2>
+        <p>"Este eBook foi um divisor de águas na minha vida financeira e digital!" - João Silva</p>
+    </section>
+
+    <section id="compra">
+        <h2>Adquira o seu eBook agora!</h2>
+        <p>Compre hoje e tenha acesso a um conteúdo exclusivo para transformar sua vida!</p>
+        <a href="link-para-pagamento" class="cta-button">Compre Agora</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 eBook Transformação Digital. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
