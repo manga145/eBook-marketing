@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para divulgação de eBooks sobre Marketing Digital, Finanças Pessoais, Investimentos e Tecnologia.">
+    <title>eBooks de Marketing Digital, Finanças, Investimentos e Tecnologia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .ebook-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .ebook-item {
+            background-color: #fafafa;
+            padding: 15px;
+            width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .ebook-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .ebook-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .ebook-item a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>eBooks sobre Marketing Digital, Finanças, Investimentos e Tecnologia</h1>
+    <p>Aprenda, invista e cresça com os melhores eBooks!</p>
+</header>
+
+<nav>
+    <a href="#marketing">Marketing Digital</a>
+    <a href="#financas">Finanças Pessoais</a>
+    <a href="#investimentos">Investimentos</a>
+    <a href="#tecnologia">Tecnologia</a>
+</nav>
+
+<section id="marketing">
+    <h2>Marketing Digital</h2>
+    <div class="ebook-list">
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Marketing Digital">
+            <h3>Estratégias de Marketing Digital</h3>
+            <p>Aprenda as melhores estratégias para aumentar sua visibilidade online.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Marketing Digital">
+            <h3>SEO para Iniciantes</h3>
+            <p>Entenda como otimizar seu conteúdo para mecanismos de busca.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+    </div>
+</section>
+
+<section id="financas">
+    <h2>Finanças Pessoais</h2>
+    <div class="ebook-list">
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Finanças Pessoais">
+            <h3>Controle de Gastos Pessoais</h3>
+            <p>Aprenda a controlar suas finanças e a economizar de maneira eficaz.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Finanças Pessoais">
+            <h3>Planejamento Financeiro</h3>
+            <p>Descubra como planejar seu futuro financeiro de forma estratégica.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+    </div>
+</section>
+
+<section id="investimentos">
+    <h2>Investimentos</h2>
+    <div class="ebook-list">
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Investimentos">
+            <h3>Investindo na Bolsa de Valores</h3>
+            <p>Conheça as melhores estratégias para investir na bolsa de valores.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Investimentos">
+            <h3>Investimentos para Iniciantes</h3>
+            <p>Saiba por onde começar ao investir seu dinheiro de forma inteligente.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+    </div>
+</section>
+
+<section id="tecnologia">
+    <h2>Tecnologia</h2>
+    <div class="ebook-list">
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Tecnologia">
+            <h3>Inovações em Tecnologia</h3>
+            <p>Fique por dentro das últimas inovações no mundo da tecnologia.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+        <div class="ebook-item">
+            <img src="https://via.placeholder.com/250" alt="eBook Tecnologia">
+            <h3>Introdução à Inteligência Artificial</h3>
+            <p>Descubra os conceitos básicos e aplicações da inteligência artificial.</p>
+            <a href="#">Baixar Agora</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 eBooks de Marketing Digital, Finanças, Investimentos e Tecnologia</p>
+    <p>Desenvolvido por [Seu Nome]</p>
+</footer>
+
+</body>
+</html>
